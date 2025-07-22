@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU RESPONSIVE</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">MENU</div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle"> <img class="MENU" src="images" alt="MENU"> </label>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">PRECIOS</a>
+                    <ul>
+                        <li><a href="#">Cuidados</a></li>
+                        <li><a href="#">Materiales</a></li>
+                        <li><a href="#">Plantas</a></li>
+                        <li><a href="#">Flores</a>
+                            <ul>
+                                <li><a href="#">Tipo A</a></li>
+                                <li><a href="#">Tipo B</a></li>
+                                <li><a href="#">Tipo C</a></li>
+                                <li><a href="#">Tipo D</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">BLOG</a>
+                    <ul>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Clima</a></li>
+                        <li><a href="#">Fauna</a></li>
+                        <li><a href="#">Restaurantes</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<hr>
+<section>
+  <div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="img/flor6.jpg" alt="Imagen 1"></div>
+            <div class="slide"><img src="img/flor7.jpg" alt="Imagen 2"></div>
+            <div class="slide"><img src="img/flor8.jpg" alt="Imagen 3"></div>
+            </div>
+        <button class="prev-btn">&#10094;</button>
+        <button class="next-btn">&#10095;</button>
+        <div class="dots-container">
+            </div>
+    </div>
+</section>
+
+<hr>
+<section>
+  <h1>Mi galeria de imagenes</h1>
+    <section class="galeria">
+        <img src="img/flor1.jpg" alt="foto1" class="miniatura">
+        <img src="img/flor2.jpg" alt="foto2" class="miniatura">
+        <img src="img/flor3.jpg" alt="foto3" class="miniatura">
+        <img src="img/flor9.jpg" alt="foto4" class="miniatura">
+        <img src="img/flor4.jpg" alt="foto5" class="miniatura">
+        <img src="img/flor10.jpg" alt="foto6" class="miniatura">
+    </section>
+
+    <did id="visor" class="visor oculto">
+        <span id="cerrar">&times;</span>
+        <img id="imagenGrande" src="" alt="Imagen ampliada"/>
+    </did>
+
+  
+</section>
+
+<hr>
+<section>
+<section class="noticias-seccion">
+        <h2>Ùltimas Noticias</h2>
+        <article class="noticia">
+             <img src="img/flor6.jpg" alt="Tìtulo de la Noticia 1">
+             <h3>Las flores colombianas coronan el Día de la Madre
+              a pesar de la guerra arancelaria de Trump</h3>
+             <p class="resumen">Colombia es el segundo exportador mundial del producto, y el 
+            principal a Estados Unidos</p>
+             <a href="https://www.peru-retail.com/bembos-y-papa-johns-descuentos-cyber-wow/">Leer màs</a>
+        </article>
+
+        <article class="noticia">
+            <img src="img/flor4.jpg" alt="Tìtulo de la Noticia 2">
+            <h3>Despertar la curiosidad por las abejas silvestres, un objetivo del Real Jardín Botánico</h3>
+            <p class="resumen">Clara Vignolo, técnico en la Unidad de Cultura Científica del vergel de Madrid, coordina un concurso para fotografiar a los 
+            polinizadores de las plantas para dar a conocer su enorme diversidad e importancia</p>
+            <a href="https://www.kfc.com.pe">Leer màs</a>
+        </article>
+
+        <article class="noticia">
+            <img src="img/flor3.jpg" alt="Titular de la Noticia 3">
+            <h3>Titular de la Noticia</h3>
+            <p class="resumen">Un pequeño pàrrafo que introduce la tercera noticia se destacancccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</p>
+            <a href="https://www.infobae.com/america/peru/2022/06/13/mundial-qatar-2022-restaurantes-ofreceran-platos-gratis-y-a-mitad-de-precio-si-peru-clasifica/">Leer màs</a>
+        </article>
+    </section>
+
+</section>
+
+<hr>
+<center><section>
+   <main>
+        <h1>¡Contàctanos!</h1>
+        <p>Por favor, completa el siguiente formulario para ponerte en contacto con nosotros</p>
+        <form action="#" method="POST">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="Tu nombre completo" required autocomplete="name">
+            </div>
+            <div>
+                <label for="email">Correo Electrònico:</label>
+                <input type="email" id="email" placeholder="Tu correo electrònico" required autocomplete="email">
+            </div>
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquì" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <section>
+            <div class="social-links">
+                <a href="https://web.whatsapp.com/" class="social-icon whatsapp" target="_blank">
+                    <img src="img/logo4.jpg" alt="Whatsapp">
+                </a>
+
+                <a href="https://www.facebook.com/" class="social-icon facebook" target="_blank">
+                    <img src="img/logo2.jpg" alt="Facebook">
+                </a>
+
+                <a href="https://www.instagram.com/#" class="social-icon instagram" target="_blank">
+                    <img src="img/logo1.jpg" alt="Instagram">
+                </a>
+
+                <a href="https://x.com/" class="social-icon twitter" target="_blank">
+                    <img src="img/logo3.jpg" alt="Twitter">
+                </a>
+            </div>
+        </section>
+    </main>
+</section></center>
+   <script src="menu.js"></script>
+</body>
+</html>
